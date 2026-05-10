@@ -1,0 +1,16 @@
+{
+  "paths": {
+    "plugins": "plugins",
+    "reports": "reports"
+  },
+  "readme": {
+    "bullet": "*",
+    "versionFormat": "= {version} – {date} =",
+    "dateLocale": "en-GB",
+    "emptyLines": 2
+  },
+  "changelog": {
+    "keepHistory": true,
+    "spaces": 2
+  }
+}

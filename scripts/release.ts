@@ -1,3 +1,4 @@
+import fs from 'fs-extra';
 import path from 'path';
 import chalk from 'chalk';
 import semver from 'semver';
@@ -6,11 +7,14 @@ import { updateReadme } from './generate-readme';
 import { generateAdminChangelog } from './generate-admin-changelog';
 import { generateMonthlyReport } from './generate-monthly-report';
 
+const config = fs.readJsonSync(path.join(process.cwd(), 'config.json'));
+
 async function main() {
   const dryRun = process.argv.includes('--dry');
   const rootDir = process.cwd();
-  const pluginsDir = path.join(rootDir, 'plugins');
-  const reportsDir = path.join(rootDir, 'reports');
+  
+  const pluginsDir = path.join(rootDir, config.paths.plugins || 'plugins');
+  const reportsDir = path.join(rootDir, config.paths.reports || 'reports');
 
   console.log(chalk.bold.blue('\n🚀 Starting Plugin Release Automation System...\n'));
 
@@ -26,14 +30,11 @@ async function main() {
 
     for (const [pluginSlug, releases] of Object.entries(pluginGroups)) {
       // Sort releases by version ascending (oldest first)
-      // This ensures when we append to the top of readme.txt, newest ends up at the very top.
       const sortedReleases = releases.sort((a, b) => {
         return semver.compare(a.version, b.version);
       });
 
       console.log(chalk.bold.magenta(`\n📦 Plugin: ${pluginSlug}`));
-
-      const latestPublished = sortedReleases.filter(r => r.status === 'published').pop();
 
       for (const release of sortedReleases) {
         if (release.status === 'draft') {
@@ -46,10 +47,8 @@ async function main() {
         // Update readme.txt
         await updateReadme(pluginDir, release, dryRun);
 
-        // Update changelog.json ONLY for the latest published version
-        if (latestPublished && release.version === latestPublished.version) {
-          await generateAdminChangelog(pluginDir, release, dryRun);
-        }
+        // Update changelog.json for all published versions to preserve history
+        await generateAdminChangelog(pluginDir, release, dryRun);
       }
     }
 

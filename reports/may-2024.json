@@ -1,0 +1,18 @@
+{
+  "month": "2024-05",
+  "monthName": "May",
+  "year": "2024",
+  "totalReleases": 1,
+  "plugins": [
+    {
+      "plugin": "counters-block",
+      "version": "1.1.1",
+      "date": "2024-05-05",
+      "type": "patch",
+      "features": 15,
+      "improvements": 0,
+      "fixes": 0,
+      "tags": []
+    }
+  ]
+}

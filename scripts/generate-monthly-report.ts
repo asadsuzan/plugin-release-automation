@@ -17,12 +17,18 @@ export async function generateMonthlyReport(allReleases: Release[], reportsDir: 
 
   for (const [month, releases] of Object.entries(releasesByMonth)) {
     const [year, monthNum] = month.split('-');
-    const monthName = new Date(parseInt(year), parseInt(monthNum) - 1).toLocaleString('default', { month: 'long' });
-    const fileName = `${monthName.toLowerCase()}-${year}.md`;
-    const reportPath = path.join(reportsDir, fileName);
+    const dateForName = new Date(parseInt(year), parseInt(monthNum) - 1);
+    const monthName = dateForName.toLocaleString('default', { month: 'long' });
+    
+    const baseFileName = `${monthName.toLowerCase()}-${year}`;
+    const mdPath = path.join(reportsDir, `${baseFileName}.md`);
+    const jsonPath = path.join(reportsDir, `${baseFileName}.json`);
 
     const reportJson = {
       month: month,
+      monthName: monthName,
+      year: year,
+      totalReleases: releases.length,
       plugins: releases.map(r => ({
         plugin: r.plugin,
         version: r.version,
@@ -55,17 +61,12 @@ export async function generateMonthlyReport(allReleases: Release[], reportsDir: 
     }
 
     if (dryRun) {
-      console.log(chalk.cyan(`[Dry Run] Would generate monthly report: ${reportPath}`));
+      console.log(chalk.cyan(`[Dry Run] Would generate monthly reports: ${mdPath} and ${jsonPath}`));
     } else {
       await fs.ensureDir(reportsDir);
-      await fs.writeFile(reportPath, markdown);
-      
-      for (const r of releases) {
-          const pluginGeneratedDir = path.join(path.dirname(path.dirname(r.filePath)), 'generated');
-          await fs.ensureDir(pluginGeneratedDir);
-          await fs.writeJson(path.join(pluginGeneratedDir, 'monthly-report.json'), reportJson, { spaces: 2 });
-      }
-      console.log(chalk.green(`✔ Generated monthly report for ${month}`));
+      await fs.writeFile(mdPath, markdown);
+      await fs.writeJson(jsonPath, reportJson, { spaces: 2 });
+      console.log(chalk.green(`✔ Generated monthly reports in ${reportsDir} for ${month}`));
     }
   }
 }
