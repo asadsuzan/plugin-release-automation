@@ -2,8 +2,18 @@
   "month": "2025-12",
   "monthName": "December",
   "year": "2025",
-  "totalReleases": 1,
+  "totalReleases": 2,
   "plugins": [
+    {
+      "plugin": "section-separator",
+      "version": "2.0.0",
+      "date": "2025-12-22",
+      "type": "patch",
+      "features": 15,
+      "improvements": 0,
+      "fixes": 0,
+      "tags": []
+    },
     {
       "plugin": "counters-block",
       "version": "2.0.1",

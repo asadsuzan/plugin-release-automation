@@ -1,5 +1,17 @@
 # Monthly Report — November 2025
 
+## Section Separator (v1.0.5)
+
+### Features
+- **Improve Optimization.**
+- **Add translate feature**
+- **Fix Render Issue**
+- **Reduce PHP Code**
+- **Performance Improvements**
+- **Reduce PHP Code**
+- **Initial Release.**
+- **--**
+
 ## Offcanvas Block (v2.0.0)
 
 ## Counters Block (v2.0.0)

@@ -1,6 +1,11 @@
 {
   "plugins": [
     {
+      "slug": "section-separator",
+      "name": "section-separator",
+      "lastVersion": "2.0.3"
+    },
+    {
       "slug": "offcanvas-block",
       "name": "offcanvas-block",
       "lastVersion": "2.0.5"
@@ -23,5 +28,5 @@
     "december-2025.json",
     "april-2026.json"
   ],
-  "lastUpdated": "2026-05-10T03:27:22.657Z"
+  "lastUpdated": "2026-05-10T03:30:37.413Z"
 }

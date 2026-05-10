@@ -1,0 +1,124 @@
+{
+  "plugin": "section-separator",
+  "releases": [
+    {
+      "version": "2.0.3",
+      "date": "2026-05-10",
+      "status": "published",
+      "type": "minor",
+      "tags": [],
+      "features": [
+        {
+          "title": "title: 1"
+        }
+      ],
+      "improvements": [],
+      "fixes": []
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-02-22",
+      "status": "published",
+      "type": "patch",
+      "tags": [],
+      "features": [
+        {
+          "title": "title: Update: Redesigned and modernized admin dashboard interface."
+        }
+      ],
+      "improvements": [],
+      "fixes": []
+    },
+    {
+      "version": "2.0.0",
+      "date": "2025-12-22",
+      "status": "published",
+      "type": "patch",
+      "tags": [],
+      "features": [
+        {
+          "title": "title: Added four new aesthetic wave presets: Ocean, NeonGlow, Fire, and Sunset."
+        },
+        {
+          "title": "Added support for controlling wave amplitude (height/intensity)."
+        },
+        {
+          "title": "title: Added Wave Direction options: Left-to-Right (ltr), Right-to-Left (rtl), Invert, Static, Bounce."
+        },
+        {
+          "title": "Added vertical flip option to invert wave direction vertically."
+        },
+        {
+          "title": "title: Added a brand-new Separator Type: Pill, featuring colorful floating pill labels."
+        },
+        {
+          "title": "Pill separator includes smooth infinite marquee animation with customizable duration/speed."
+        },
+        {
+          "title": "title: Each pill supports individual customization: Background color, Text color, Label text, Rotation angle."
+        },
+        {
+          "title": "title: Global style controls for the pill track: Padding, Margin, Background, spacing/gap."
+        },
+        {
+          "title": "title: Individual pill item styling controls: Padding, Shadow, Typography, Border, Border Radius."
+        },
+        {
+          "title": "Added a brand-new BoldGradient Separator combining editable pill-style items with pattern and wave overlays."
+        },
+        {
+          "title": "title: Background Type control: Both, Pattern, Organic, or None."
+        },
+        {
+          "title": "title: Organic Waves Controls: Enable/disable, Top & Bottom Opacity, Wave Height, Color Mode (Solid/Gradient), Gradient Options (Start Color, End Color, Direction: Horizontal, Vertical, Diagonal)."
+        },
+        {
+          "title": "title: Pattern Controls: Toggle visibility, Opacity, Configure Angle, Transparent Gap, Stripe Colors, and Distances."
+        },
+        {
+          "title": "title: Dynamic Gradient Items: Inline RichText editing, Add/Duplicate/Remove items, Per-item color control."
+        },
+        {
+          "title": "title: Gradient Item Styling Controls: Padding, Border, Border Radius, Shadow."
+        }
+      ],
+      "improvements": [],
+      "fixes": []
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-11-26",
+      "status": "published",
+      "type": "patch",
+      "tags": [],
+      "features": [
+        {
+          "title": "Improve Optimization."
+        },
+        {
+          "title": "Add translate feature"
+        },
+        {
+          "title": "Fix Render Issue"
+        },
+        {
+          "title": "Reduce PHP Code"
+        },
+        {
+          "title": "Performance Improvements"
+        },
+        {
+          "title": "Reduce PHP Code"
+        },
+        {
+          "title": "Initial Release."
+        },
+        {
+          "title": "--"
+        }
+      ],
+      "improvements": [],
+      "fixes": []
+    }
+  ]
+}
