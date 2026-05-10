@@ -5,6 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "ts-node scripts/release.ts",
+    "dashboard:sync": "ts-node scripts/sync-dashboard-data.ts",
+    "dashboard": "npm run dashboard:sync && npm run dev --prefix dashboard",
     "release:dry": "ts-node scripts/release.ts --dry",
     "new-release": "ts-node scripts/new-release.ts"
   },

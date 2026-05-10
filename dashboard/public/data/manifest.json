@@ -1,0 +1,27 @@
+{
+  "plugins": [
+    {
+      "slug": "offcanvas-block",
+      "name": "offcanvas-block",
+      "lastVersion": "2.0.5"
+    },
+    {
+      "slug": "counters-block",
+      "name": "counters-block",
+      "lastVersion": "2.0.8"
+    }
+  ],
+  "reports": [
+    "september-2024.json",
+    "october-2024.json",
+    "november-2025.json",
+    "may-2026.json",
+    "may-2024.json",
+    "january-2026.json",
+    "february-2026.json",
+    "february-2024.json",
+    "december-2025.json",
+    "april-2026.json"
+  ],
+  "lastUpdated": "2026-05-10T03:27:22.657Z"
+}

@@ -1,0 +1,18 @@
+{
+  "month": "2024-09",
+  "monthName": "September",
+  "year": "2024",
+  "totalReleases": 1,
+  "plugins": [
+    {
+      "plugin": "offcanvas-block",
+      "version": "1.0.1",
+      "date": "2024-09-29",
+      "type": "patch",
+      "features": 2,
+      "improvements": 0,
+      "fixes": 0,
+      "tags": []
+    }
+  ]
+}

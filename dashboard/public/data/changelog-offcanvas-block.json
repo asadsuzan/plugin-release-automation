@@ -1,0 +1,150 @@
+{
+  "plugin": "offcanvas-block",
+  "releases": [
+    {
+      "version": "2.0.5",
+      "date": "2026-05-10",
+      "status": "published",
+      "type": "minor",
+      "tags": [],
+      "features": [
+        {
+          "title": "title: 1"
+        },
+        {
+          "title": "title: 2"
+        },
+        {
+          "title": "title: 3"
+        }
+      ],
+      "improvements": [],
+      "fixes": []
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-04-06",
+      "status": "published",
+      "type": "patch",
+      "tags": [],
+      "features": [
+        {
+          "title": "title: **Fix**: Resolved license activation check issue by improving class existence validation."
+        },
+        {
+          "title": "title: **Fix**: Fixed broken link in the upgrade modal."
+        },
+        {
+          "title": "title: **Update**: Improved Inspector Controls for a more intuitive and user-friendly experience."
+        }
+      ],
+      "improvements": [],
+      "fixes": []
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-02-21",
+      "status": "published",
+      "type": "patch",
+      "tags": [],
+      "features": [
+        {
+          "title": "title: **Update**: Redesigned and modernized admin dashboard interface."
+        }
+      ],
+      "improvements": [],
+      "fixes": []
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-02-16",
+      "status": "published",
+      "type": "patch",
+      "tags": [],
+      "features": [
+        {
+          "title": "title: **New**: Added contextual info notes to explain advanced settings and features."
+        },
+        {
+          "title": "title: **New**: Introduced new popup animation types: Zoom, Flip, and Bounce."
+        },
+        {
+          "title": "title: **New**: Added Backdrop blur control  support"
+        },
+        {
+          "title": "title: **New**: Added Configurable animation duration(ms)"
+        },
+        {
+          "title": "title: **New**: Added Animation easing presets"
+        },
+        {
+          "title": "title: **Update**: Improved validation for custom trigger and smart trigger selectors (class/ID input)."
+        },
+        {
+          "title": "title: **Update**: Enhanced user guidance for Custom Trigger and Smart Auto Trigger options."
+        },
+        {
+          "title": "title: **Fix**: Prevented invalid selector errors from breaking the editor."
+        },
+        {
+          "title": "title: **Refactor**: Removed unnecessary and duplicate logic to improve performance and maintainability."
+        }
+      ],
+      "improvements": [],
+      "fixes": []
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-01-01",
+      "status": "published",
+      "type": "patch",
+      "tags": [],
+      "features": [
+        {
+          "title": "title: **New:** Added ripple effect support to the trigger button."
+        },
+        {
+          "title": "title: **New:** Added support for custom close button icons and position controls."
+        },
+        {
+          "title": "title: **New:** Extended popup header options with background control, visibility toggle, and title position settings."
+        },
+        {
+          "title": "title: **Update:** Renamed Trigger Button PanelBody Title for better clarity."
+        },
+        {
+          "title": "title: **Update:** Moved trigger button alignment control to block settings."
+        }
+      ],
+      "improvements": [],
+      "fixes": []
+    },
+    {
+      "version": "2.0.0",
+      "date": "2025-11-25",
+      "status": "published",
+      "type": "patch",
+      "tags": [],
+      "features": [],
+      "improvements": [],
+      "fixes": []
+    },
+    {
+      "version": "1.0.1",
+      "date": "2024-09-29",
+      "status": "published",
+      "type": "patch",
+      "tags": [],
+      "features": [
+        {
+          "title": "title: Fix: Close button icon visibility."
+        },
+        {
+          "title": "Initial Release."
+        }
+      ],
+      "improvements": [],
+      "fixes": []
+    }
+  ]
+}

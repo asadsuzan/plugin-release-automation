@@ -1,0 +1,68 @@
+{
+  "month": "2026-02",
+  "monthName": "February",
+  "year": "2026",
+  "totalReleases": 6,
+  "plugins": [
+    {
+      "plugin": "offcanvas-block",
+      "version": "2.0.3",
+      "date": "2026-02-21",
+      "type": "patch",
+      "features": 1,
+      "improvements": 0,
+      "fixes": 0,
+      "tags": []
+    },
+    {
+      "plugin": "offcanvas-block",
+      "version": "2.0.2",
+      "date": "2026-02-16",
+      "type": "patch",
+      "features": 9,
+      "improvements": 0,
+      "fixes": 0,
+      "tags": []
+    },
+    {
+      "plugin": "counters-block",
+      "version": "2.0.5",
+      "date": "2026-02-15",
+      "type": "patch",
+      "features": 1,
+      "improvements": 0,
+      "fixes": 0,
+      "tags": []
+    },
+    {
+      "plugin": "counters-block",
+      "version": "2.0.4",
+      "date": "2026-02-15",
+      "type": "patch",
+      "features": 3,
+      "improvements": 0,
+      "fixes": 0,
+      "tags": []
+    },
+    {
+      "plugin": "counters-block",
+      "version": "2.0.3",
+      "date": "2026-02-06",
+      "type": "patch",
+      "features": 5,
+      "improvements": 0,
+      "fixes": 0,
+      "tags": []
+    },
+    {
+      "plugin": "counters-block",
+      "version": "2.0.2",
+      "date": "2026-02-04",
+      "type": "patch",
+      "features": 5,
+      "improvements": 0,
+      "fixes": 0,
+      "tags": []
+    }
+  ]
+}

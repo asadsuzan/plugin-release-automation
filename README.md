@@ -69,6 +69,12 @@ The system follows a **One Source of Truth** philosophy where all release data i
     - `changelog.json` (appending to history).
     - Centralized monthly reports.
 
+### 🖥️ Visualization Dashboard
+You can now visualize your release history in a modern, dark-mode dashboard.
+1. Run `npm run dashboard`.
+2. Open the URL provided in the terminal (usually `http://localhost:5173`).
+3. Explore plugin timelines, release types, and metadata in a premium interface.
+
 ---
 
 ## 📁 Folder Structure Audit
