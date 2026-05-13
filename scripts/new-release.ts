@@ -5,13 +5,14 @@ import chalk from 'chalk';
 import axios from 'axios';
 import { importPlugin, parseAndInterpolateReleases } from './utils/wp-org';
 import { fetchUserPlugins } from './fetch-wp-user-plugins';
+import { triggerHook } from './utils/hooks';
 
 async function main() {
   console.log(chalk.bold.blue('\n📦 Create New Plugin Release\n'));
 
   const pluginsDir = path.join(process.cwd(), 'plugins');
   await fs.ensureDir(pluginsDir);
-  
+
   const pluginFolders = (await fs.readdir(pluginsDir, { withFileTypes: true }))
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name);
@@ -33,7 +34,7 @@ async function main() {
   ]);
 
   let pluginSlug = '';
-  
+
   if (initialAnswers.action === 'Import plugins from WordPress.org profile') {
     const { username } = await inquirer.prompt([
       {
@@ -46,7 +47,7 @@ async function main() {
 
     try {
       const plugins = await fetchUserPlugins(username);
-      
+
       if (plugins.length === 0) {
         console.log(chalk.yellow(`\n⚠ No plugins found for user "${username}"`));
         return;
@@ -72,10 +73,16 @@ async function main() {
         return;
       }
 
+      // Trigger Hook: syncStart
+      await triggerHook('syncStart', { username, count: selectedPlugins.length });
+
       for (const slug of selectedPlugins) {
         await importPlugin(slug);
       }
-      
+
+      // Trigger Hook: syncEnd
+      await triggerHook('syncEnd', { username });
+
       console.log(chalk.bold.green('\n✔ Bulk import finished successfully!\n'));
       return; // Exit or continue to release? Usually exit after bulk import as per request.
     } catch (error: any) {
@@ -94,12 +101,12 @@ async function main() {
       }
     ]);
     pluginSlug = newPluginAnswer.slug.trim();
-    
+
     // Check if exists
     if (pluginFolders.includes(pluginSlug)) {
-        console.log(chalk.yellow(`Plugin "${pluginSlug}" already exists.`));
+      console.log(chalk.yellow(`Plugin "${pluginSlug}" already exists.`));
     } else {
-        await importPlugin(pluginSlug);
+      await importPlugin(pluginSlug);
     }
   } else {
     pluginSlug = initialAnswers.action;
