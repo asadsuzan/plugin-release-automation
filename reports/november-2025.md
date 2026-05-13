@@ -10,7 +10,6 @@
 - **Performance Improvements**
 - **Reduce PHP Code**
 - **Initial Release.**
-- **--**
 
 ## Offcanvas Block (v2.0.0)
 

@@ -53,3 +53,8 @@
 - **Added progress, track, and fill color customization.**
 - **Improved layout settings placement for faster theme switching.**
 
+## Business Card Block (v2.0.3)
+
+### Features
+- **Update Admin Dashboard**
+

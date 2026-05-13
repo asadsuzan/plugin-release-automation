@@ -9,7 +9,7 @@
       "version": "1.0.5",
       "date": "2025-11-26",
       "type": "patch",
-      "features": 8,
+      "features": 7,
       "improvements": 0,
       "fixes": 0,
       "tags": []
@@ -27,7 +27,7 @@
     {
       "plugin": "counters-block",
       "version": "2.0.0",
-      "date": "2025-11-06",
+      "date": "2025-11-21",
       "type": "patch",
       "features": 6,
       "improvements": 0,

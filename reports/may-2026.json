@@ -2,36 +2,16 @@
   "month": "2026-05",
   "monthName": "May",
   "year": "2026",
-  "totalReleases": 3,
+  "totalReleases": 1,
   "plugins": [
     {
       "plugin": "section-separator",
       "version": "2.0.3",
       "date": "2026-05-10",
-      "type": "minor",
-      "features": 1,
+      "type": "patch",
+      "features": 2,
       "improvements": 0,
       "fixes": 0,
-      "tags": []
-    },
-    {
-      "plugin": "offcanvas-block",
-      "version": "2.0.5",
-      "date": "2026-05-10",
-      "type": "minor",
-      "features": 3,
-      "improvements": 0,
-      "fixes": 0,
-      "tags": []
-    },
-    {
-      "plugin": "counters-block",
-      "version": "2.0.8",
-      "date": "2026-05-10",
-      "type": "minor",
-      "features": 3,
-      "improvements": 1,
-      "fixes": 1,
       "tags": []
     }
   ]

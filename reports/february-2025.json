@@ -1,0 +1,18 @@
+{
+  "month": "2025-02",
+  "monthName": "February",
+  "year": "2025",
+  "totalReleases": 1,
+  "plugins": [
+    {
+      "plugin": "business-card-block",
+      "version": "1.0.6",
+      "date": "2025-02-17",
+      "type": "patch",
+      "features": 7,
+      "improvements": 0,
+      "fixes": 0,
+      "tags": []
+    }
+  ]
+}

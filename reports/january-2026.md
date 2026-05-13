@@ -9,3 +9,8 @@
 - **title: **Update:** Renamed Trigger Button PanelBody Title for better clarity.**
 - **title: **Update:** Moved trigger button alignment control to block settings.**
 
+## Business Card Block (v2.0.2)
+
+### Features
+- **fix header margin issue**
+

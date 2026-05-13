@@ -1,4 +1,3 @@
-
 === OffCanvas / Drawer – Responsive Slide-In Drawer & Popup System ===
 Contributors: bplugins, abuhayat, charlescormier, asadsuzan, freemius
 Donate link: https://www.buymeacoffee.com/abuhayat
@@ -21,7 +20,7 @@ Perfect for mobile menus, WooCommerce cart drawers, newsletter popups, announcem
 
 The block supports InnerBlocks, shortcode generation, complete styling controls, and advanced trigger options. It works with any WordPress theme, is fully responsive, and optimized for performance.
 
-
+[**OffCanvas**](https://bplugins.com/products/offcanvas-block/) | [**Pricing**](https://bplugins.com/products/offcanvas-block/pricing) | [**Support**](https://bplugins.com/support/) | [**Demo**](https://bplugins.com/products/offcanvas-block/#demos)
 
 == Use OffCanvas for: ==
 
@@ -179,12 +178,6 @@ You can post your questions on the plugin’s support forum.
 
 
 == Changelog ==
-
-= 2.0.5 – 10 May 2026 =
-* title: 1
-* title: 2
-* title: 3
-
 
 = 2.0.4 (07 Apr, 2026) =
 

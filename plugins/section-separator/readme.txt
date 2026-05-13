@@ -1,85 +1,89 @@
 === Section Separator Block – Visually Separate Page Sections ===
-Contributors: bplugins, abuhayat, charlescormier,asadsuzan, freemius
+Contributors: bplugins, abuhayat, charlescormier, asadsuzan
 Donate link: https://www.buymeacoffee.com/abuhayat
-Tags: block, divider, waves, separator, section
+Tags: divider, shape-divider, block, layout, wave-separator
 Requires at least: 6.5+
 Tested up to: 6.9
-Stable tag: 2.0.2
+Stable tag: 2.0.3
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Create beautiful, modern section dividers with waves, icons, pills, and gradients—fully customizable and Gutenberg-ready.
+Create stunning section dividers with waves, animated pills, SVG icons, and playful emoji stacks—fully Gutenberg-native and responsive.
 
 == Description ==
 
-Section Separator Block is a lightweight and flexible Gutenberg block that helps you visually separate content sections using modern, responsive, and customizable dividers.
+**Section Separator Block** is the ultimate design tool for WordPress users who want to break free from boring, flat layouts. This lightweight and high-performance Gutenberg block allows you to add professional, eye-catching section dividers that improve user engagement and site aesthetics in seconds.
 
-Easily add wave separators, icon dividers, pill-style separators, and bold gradient separators directly inside the WordPress block editor—no coding required.
+Whether you're building a landing page, a portfolio, or a high-converting marketing site, our separators help you guide the visitor's eye and create a premium feel without touching a single line of code.
 
-Perfect for landing pages, blogs, portfolios, and business websites. Works seamlessly with any WordPress theme.
-
-✨ Includes a fully FREE Icon Separator with customizable line styles, thickness, icon alignment, and improved editor controls.
+[**See Live Demos**](https://bblockswp.com/demo/section-separator-all/) | [**Support**](https://bplugins.com/support/)
 
 
 
-**[Demos](https://bblockswp.com/demo/section-separator-all/)**
+### ✨ Why settle for standard dividers?
+Traditional dividers are static and dull. Section Separator Block brings your site to life with dynamic wave motion, scrolling marquee pills, and the unique Emoji Stack effect that makes your content pop.
+
+
+== 🚀 Key Features ==
+
+### 🌊 Multi-Layer Wave Separators
+= Create beautiful, fluid transitions between sections. = 
+ - **Layered Waves:** Stack multiple wave layers with different colors and opacities.
+ - **Custom Motion:** Control speed, amplitude (height), and shape.
+ - **Advanced Directions:** Choose from Left-to-Right, Right-to-Left, Bounce, or Static.
+ - **Vertical Flip:** Easily invert waves for top or bottom placement.
+
+### 💊 Animated Pill Marquee (Pro)
+= Highlight your features or selling points with scrolling pill labels. =
+ - **Infinite Marquee:** Smooth, high-performance scrolling animation.
+ - **Fully Customizable:** Edit text, colors, rotation, and shadows for every single pill.
+ - **Global Styling:** Control track padding, background, and item spacing.
+
+### 🌟 Playful Emoji Stacks
+= A unique way to separate sections using your favorite emojis. =
+  - **Custom Emoji Selection:** Use any emoji to create a patterned stack.
+  - **Density & Randomness:** Control how tightly emojis are packed and how "scattered" they look.
+  - **Hover Animations:** Make your emojis react when users move their mouse.
+  - **Deterministic Layout:** Stays consistent across all page loads.
+
+### 🎨 Bold Gradient & Patterns
+= Geometric designs for a modern, tech-forward look. =
+-   **Pattern Overlays:** Add stripes or organic shapes to your gradients.
+-   **RichText Editing:** Edit item text directly inside the block editor.
+-   **Dynamic Gradients:** Combine solid colors with stunning CSS gradients.
+
+### 🛠️ Icon Separator 
+= Classic dividers with a modern twist. =
+-   **SVG Support:** Choose from a library or use your own custom icons.
+-   **Line Styles:** Solid, Dashed, or Dotted lines with adjustable thickness.
+-   **Smart Alignment:** Perfect positioning for Left, Center, or Right layouts.
 
 ---
 
-== ✅ Why use Section Separator? ==
-
-- Clean and modern section dividers
-- Fully Gutenberg-native
-- Responsive and performance-optimized
-- Beginner-friendly with advanced controls
-
----
-
-== Perfect for == 
-- Visually separating sections on your WordPress site
-- Landing pages, portfolios, blogs, and marketing pages
-- Decorative dividers with modern design aesthetics
-
-Lightweight, flexible, and easy to use.
----
-
-== Key Features Include ==
-
-- Wave Separator Block with multi-layer waves
-- Adjustable wave height (amplitude) and shape
-- Control wave color, opacity, and placement (top or bottom)
-- Icon Separator (100% Free) with custom icon or SVG support
-- Icon alignment: Left, Center, Right
-- Line thickness and line style options (Solid, Dashed, Dotted)
-- Multiple separator variants: Solid, Gradient, Glow
-- Pill Separator with animated pill labels (pro)
-- Infinite marquee animation with speed control (Pro)
-- Bold Gradient Separator with SVG waves and decorative patterns
-- Spacing, padding, margin, border, shadow, and typography controls
-- Fully responsive on desktop, tablet, and mobile
-- Optimized for fast loading and clean output
+== ✅ Perfect For ==
+*   **Landing Pages:** Create "sticky" designs that keep users scrolling.
+*   **Portfolios:** Showcase your work with creative, modern separators.
+*   **E-commerce:** Highlight trust badges or features using the Pill Marquee.
+*   **Blogs:** Add a touch of personality to your long-form content.
 
 ---
 
-== Free Version Includes: ===
+== 💎 Free vs Pro ==
 
-= Free Includes: =
-- Wave Separator (core features)
-- Icon Separator (fully free)
-- Basic Bold Gradient Separator
-- Responsive design
-- Unlimited usage
-- Clipboard Copy for Shortcode 
+= Free Version Includes: =
+*   Standard Wave Separator with core controls.
+*   Fully featured Icon Separator (All options included!).
+*   Basic Bold Gradient Separator.
+*   Responsive controls for Desktop, Tablet, and Mobile.
+*   Centralized management via the "Section Separator" post type.
 
 = Pro Version Unlocks: =
-- Advanced wave motion directions and animations
-- Premium wave presets (Ocean, Neon Glow, Fire, Sunset)
-- Pill Separator with marquee animation and styling
-- Advanced Bold Gradient options (patterns, SVG overlays)
-- Priority support and automatic updates
-
----
+*   **Premium Wave Presets:** Ocean, Neon Glow, Fire, and Sunset.
+*   **Animated Pill Separator:** The infinite marquee effect for features.
+*   **Advanced Wave Motion:** Bounce, Invert, and custom directions.
+*   **Complex Patterns:** High-end geometric overlays for gradients.
+*   **Priority Support:** Direct help from our expert developers.
 
 == How to use ==
 
@@ -89,15 +93,12 @@ Lightweight, flexible, and easy to use.
 4. Customize settings from the right-side block panel.
 5. Enjoy beautiful section dividers 🎉
 
-For installation help click on Installation Tab
+***For installation help click on Installation Tab***
 
----
 
 == Feedback ==
 
-- Did you find a bug or have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
-
----
+ Did you find a bug or have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
 
 ### Check out the Parent Plugin of this plugin-
 
@@ -117,8 +118,6 @@ For installation help click on Installation Tab
 [**3D Viewer**](https://bplugins.com/products/3d-viewer/) – Embed 3D models and 3D products with interaction.
 
 [**Advanced Post Block**](https://bplugins.com/products/advanced-post-block/) – Show posts and custom posts in different layouts.
-
----
 
 == Installation ==
 
@@ -141,47 +140,33 @@ For installation help click on Installation Tab
 
 == Frequently Asked Questions ==
 
-= Is Section Separator free? =
+= Is it fast? =
+Yes! We use optimized SVG rendering and CSS-driven animations to ensure zero impact on your site's PageSpeed scores.
 
-Yes, Section Separator is a free Gutenberg block plugin.
+= Does it work with Elementor or Divi? =
+This is a native Gutenberg block. However, you can create your separator as a "Shortcode" in our plugin dashboard and then paste that shortcode into ANY page builder (Elementor, Divi, Beaver Builder, etc.).
 
-= Does it work with any WordPress theme? =
+= Can I use my own icons? =
+Absolutely! The Icon Separator supports custom SVG code, giving you unlimited design freedom.
 
-Yes, it will work with any standard WordPress theme.
-
-= Can I change block settings? =
-
-Yes, you can change block settings from the Gutenberg block editor's right sidebar.
-
-= How many times can I reuse a block? =
-
-You can use unlimited times as you want.
-
-= Is it responsive? =  
-Absolutely. All separators are fully responsive and work on desktop, tablet, and mobile devices.
-
-= Where can I get support? =
-
-You can post your questions on the [support forum here](https://wordpress.org/support/plugin/section-separator/)
+= Is it responsive? =
+Every single separator type has built-in controls for Desktop, Tablet, and Mobile to ensure your site looks perfect on every screen.
 
 ---
 
 == Screenshots ==
 
-1. Wave Settings
-2. Wave Separator (Default)
-3. Icon Separator 
-4. Bold Gradient Separator
-5. Pill Separator with marquee animation
-
-
-
+1. New Emoji Stack Separator
+2. Animated Marquee Pill Separator 
+3. Decorative Icon Divider
+4. Multi-Layer Wave Divider
+5. Gradient Pattern Divider
 
 == Changelog ==
 
-= 2.0.3 – 10 May 2026 =
-* title: 1
-
+= 2.0.3 – 11 May 2026 =
+* New: Introduced the **Emoji Stack** separator - fully free and customizable!
+* Improvement: Refined block metadata and improved performance.
 
 = 2.0.2 – 23 Feb 2026 =
 * Update: Redesigned and modernized admin dashboard interface.
@@ -223,8 +208,8 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 = 1.0.0 =
 * Initial Release.
 
----
-
 == Upgrade Notice ==
 
-Upgrade to Pro for advanced wave motion, premium presets, animated pill separators, decorative patterns, and priority support.
+= 2.0.3 =
+This update introduces the brand-new Emoji Stack separator—available for free! Enhance your designs with interactive, playful emoji backgrounds.
+

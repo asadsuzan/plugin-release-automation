@@ -191,14 +191,6 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Changelog ==
 
-= 2.0.8 – 10 May 2026 =
-* title: 1
-* title: 2
-* title: 3
-* title: 1
-* title: 1
-
-
 = 2.0.7 – 28 April 2026 =
 * **New Features**: Added Data Source system with multiple options (Static values, WP Core Stats, WooCommerce Stats).
 * **WP Core Stats**: Support for Posts, Comments, and Users (now including Pages).

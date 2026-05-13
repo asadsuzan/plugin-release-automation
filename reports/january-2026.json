@@ -2,7 +2,7 @@
   "month": "2026-01",
   "monthName": "January",
   "year": "2026",
-  "totalReleases": 1,
+  "totalReleases": 2,
   "plugins": [
     {
       "plugin": "offcanvas-block",
@@ -10,6 +10,16 @@
       "date": "2026-01-01",
       "type": "patch",
       "features": 5,
+      "improvements": 0,
+      "fixes": 0,
+      "tags": []
+    },
+    {
+      "plugin": "business-card-block",
+      "version": "2.0.2",
+      "date": "2026-01-12",
+      "type": "patch",
+      "features": 1,
       "improvements": 0,
       "fixes": 0,
       "tags": []

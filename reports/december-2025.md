@@ -25,3 +25,13 @@
 - **Ensured responsive column settings (Desktop / Tablet / Mobile) now apply correctly across the block.**
 - **No breaking changes — existing blocks continue to work as expected.**
 
+## Business Card Block (v2.0.1)
+
+### Features
+- **title: Bug fix: corrected broken links.**
+
+## Business Card Block (v2.0.0)
+
+### Features
+- **Added six new themes for improved design and customization.**
+

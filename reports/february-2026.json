@@ -2,7 +2,7 @@
   "month": "2026-02",
   "monthName": "February",
   "year": "2026",
-  "totalReleases": 7,
+  "totalReleases": 8,
   "plugins": [
     {
       "plugin": "section-separator",
@@ -70,6 +70,16 @@
       "date": "2026-02-04",
       "type": "patch",
       "features": 5,
+      "improvements": 0,
+      "fixes": 0,
+      "tags": []
+    },
+    {
+      "plugin": "business-card-block",
+      "version": "2.0.3",
+      "date": "2026-02-21",
+      "type": "patch",
+      "features": 1,
       "improvements": 0,
       "fixes": 0,
       "tags": []

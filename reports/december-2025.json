@@ -2,7 +2,7 @@
   "month": "2025-12",
   "monthName": "December",
   "year": "2025",
-  "totalReleases": 2,
+  "totalReleases": 4,
   "plugins": [
     {
       "plugin": "section-separator",
@@ -17,9 +17,29 @@
     {
       "plugin": "counters-block",
       "version": "2.0.1",
-      "date": "2025-12-13",
+      "date": "2025-12-12",
       "type": "patch",
       "features": 2,
+      "improvements": 0,
+      "fixes": 0,
+      "tags": []
+    },
+    {
+      "plugin": "business-card-block",
+      "version": "2.0.1",
+      "date": "2025-12-21",
+      "type": "patch",
+      "features": 1,
+      "improvements": 0,
+      "fixes": 0,
+      "tags": []
+    },
+    {
+      "plugin": "business-card-block",
+      "version": "2.0.0",
+      "date": "2025-12-13",
+      "type": "patch",
+      "features": 1,
       "improvements": 0,
       "fixes": 0,
       "tags": []
